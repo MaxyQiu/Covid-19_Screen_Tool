@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Technical Test | PlatformOS Demo instance</title>
+  <link rel="stylesheet" href="{{ 'styles/app.css' | asset_url }}">
+</head>
+
+<body class="antialiased font-sans leading-relaxed">
+
+  <div class="flex flex-row flex-wrap min-h-screen justify-start items-start">
+
+    <div class="w-full">
+      <div class="bg-ex-darkblue w-full shadow-xl flex items-center h-32 md:text-center">
+        <!-- <img src="{{ 'images/logo.svg' | asset_url }}" alt="platformOS Logo" width="175" class="ml-4"> -->
+
+        <div class="text-white right-5 font-semibold -mt-px ml-50 pl-50 border-l border-ex-lightblue md:text-center">
+          Welcome to SalonEverywhere Pre-Appointment COVID Screening Tool
+
+        </div>
+        <img  class="left-5"width="50"height="50"src="https://uploads.prod01.oregon.platform-os.com/instances/1420/assets/images/pages/home/registration-success.png?updated=1590167457"alt="logo">
+      </div>
+      <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">Please enter your email or Phone number:</div>
+    </div>
+
+    <div class="my-10 px-10 md:px-0 w-full">
+      <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+        <input id="filename" type="email" placeholder="maxy@example.com">
+      <button  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" onclick="sendemail()"> Send </button>
+
+<a href='/thanks.html' > test </a>
+
+</html>
+<script>
+function sendemail()
+        {   alert("sent!")
+            var email = document.getElementById("filename").value;
+            var subject = ('The links of the form');
+            var body = ('https://lively-smoke-435.staging.oregon.platform-os.com/questionnaire');
+            document.write('<a href="mailto:' + email + '?subject=' +subject+ '&body=' +body+ '">' + 'Click here to send email as well' + '<'+'/a>'
+                            );
+          }
+</script>

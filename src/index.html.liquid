@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Technical Test | PlatformOS Demo instance</title>
+  <link rel="stylesheet" href="{{ 'styles/app.css' | asset_url }}">
+</head>
+
+<body class="antialiased font-sans leading-relaxed">
+
+  <div class="flex flex-row flex-wrap min-h-screen justify-start items-start">
+
+    <div class="w-full">
+      <div class="bg-ex-darkblue w-full shadow-xl flex items-center h-16">
+        <img src="{{ 'images/logo.svg' | asset_url }}" alt="platformOS Logo" width="175" class="ml-4">
+
+        <p class="text-white font-semibold -mt-px ml-3 pl-3 border-l border-ex-lightblue">
+          Hello world
+          <span class="font-light">Demo instance</span>
+        </p>
+      </div>
+
+      <div class="w-full flex justify-center items-start bg-white border-b-2 border-ex-lightgrey">
+        <img src="{{ 'images/welcome.svg' | asset_url }}" alt="Hello world!" class="sm:h-96 lg:h-128">
+      </div>
+    </div>
+
+    <div class="my-10 px-10 md:px-0 w-full">
+      <h2 class="text-2xl font-semibold text-center">
+         This is my first instance!
+      </h2>
+
+      <div class="max-w-2xl mx-auto mt-10">
+        <p class="font-semibold text-gray-700">
+          Modified!!!!
+        </p>
+        <p class="mt-4 font-light">
+          This is your Demo Instance: a fully functional example platformOS site that you can use as your own Sandbox. Follow the steps in our Hello, World! tutorial to change something on this site, and check back here to see how it has changed. By the time you finish, you’ll be set up to start working on platformOS.
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-ex-lightgrey mt-auto w-full">
+      <div class="max-w-2xl flex justify-between items-center mx-auto py-3">
+        <img src="{{ 'images/logo-black.svg' | asset_url }}" alt="platformOS Logo" width="135" class="logo-black">
+
+        <ul class="font-light text-sm">
+          <li><a href="https://documentation.platformos.com" target="_blank">Documentation</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+</html>

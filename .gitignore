@@ -1,0 +1,9 @@
+# General
+node_modules/
+.env
+
+# OS junk
+.DS_Store
+
+.pos
+tmp/

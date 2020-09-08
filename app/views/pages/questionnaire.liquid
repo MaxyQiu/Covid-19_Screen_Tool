@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="{{ 'styles/app.css' | asset_url }}">
+</head>
+
+<body>
+<div class="bg-ex-darkblue w-full shadow-xl flex items-center h-32 md:text-center">
+
+    <p class="text-white md:text-center">COVID Screening Questionnaire</p>
+</div> 
+
+
+<form action=""method="post">
+
+
+<div class="box-content  h-200 w-320 p-20  border-gray-400 ">
+
+ <div class=" bg-gray-400 box-content  h-190 w-320 p-310">
+   <div class="h-full w-full bg-gray-400 text-justify">
+      <p class="font-bold">1.Do you have any of the symptoms or signs?</p>
+      <p>New or worsening cough</p>
+      <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>Shortness of breath</p>
+     <input type="radio"name="answer1"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer1"value="no"/><label for="">No</label>
+     <p>Sore throat</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+
+     <p>Runny nose, sneezing or nasal congestion (in absence of underlying reasons for symptoms such as seasonal allergies and post nasal drip) </p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>Hoarse voice</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+      <p>Difficulty swallowing</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>New smell or taste disorder(s)</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>Nausea/vomiting, diarrhea, abdominal pain</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>Unexplained fatigue/malaise</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>Chills</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+     <p>Headache</p>
+     <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+
+ <p class="font-bold">2.Have you travelled outside of Canada or had close contact with anyone that has travelled outside of Canada in the past 14 days?</p>
+
+ <input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+
+<p class="font-bold">3.Do you have a fever? </p>
+<input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+
+<p class="font-bold">4.Have you had close contact with anyone with respiratory illness or a confirmed or probable case of COVID-19?  </p>
+<input class="visible" type="radio" name="answer"value="yes"/> <label for="">Yes</label> <input type="radio"name="answer"value="no"/><label for="">No</label>
+</div>
+</div>
+</div>
+<div class="text-center">
+<a href='/thanks.html' class="box-border p-1 border-4 border-gray-400 bg-gray-200"> submit </a>
+</div>
+</form>
+
+<input type="submit">
+<input type="reset">
+</body>
+</html>
